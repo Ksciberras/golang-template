@@ -1,6 +1,9 @@
 package server
 
 import (
+	"golang-project-template/internal/config"
+	"golang-project-template/internal/handler"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"

@@ -1,6 +1,10 @@
 package main
 
 import (
+	"golang-project-template/internal/config"
+	"golang-project-template/internal/handler"
+	"golang-project-template/internal/server"
+	"golang-project-template/internal/service"
 	"log"
 )
 
